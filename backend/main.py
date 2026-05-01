@@ -15,7 +15,8 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 app = FastAPI()
 
-DB_PATH = "cases.db"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_PATH = os.path.join(BASE_DIR, "cases.db")
 
 def init_db():
     conn = sqlite3.connect(DB_PATH)
