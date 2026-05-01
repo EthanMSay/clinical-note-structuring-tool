@@ -129,6 +129,8 @@ http://localhost:3000
 
 ## Deployment Link
 
+https://clinical-note-structuring-tool-fatw.onrender.com
+
 
 ---
 
