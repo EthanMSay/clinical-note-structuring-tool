@@ -130,7 +130,7 @@ http://localhost:3000
 ## Deployment Link
 
 https://clinical-note-structuring-tool-fatw.onrender.com
-
+https://clinical-note-structuring-tool-bte9ze37m-emsay-7690s-projects.vercel.app/
 
 ---
 
