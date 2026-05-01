@@ -47,7 +47,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "https://clinical-note-structuring-tool-seven.vercel.app",
+        "https://clinical-note-structuring-tool-bte9ze37m-emsay-7690s-projects.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
