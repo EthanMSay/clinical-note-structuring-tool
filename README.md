@@ -28,7 +28,7 @@ Users can edit the generated output and save cases for later viewing.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 **Frontend**
 - Next.js (React)
 - TypeScript
@@ -68,3 +68,25 @@ Users can edit the generated output and save cases for later viewing.
 ```bash
 git clone https://github.com/YOUR_USERNAME/clinical-note-structuring-tool.git
 cd clinical-note-structuring-tool
+
+2. Backend Setup
+cd backend
+python -m venv .venv
+.venv\Scripts\activate   # Windows
+pip install fastapi uvicorn openai python-dotenv
+
+Create a .env file in backend/:
+OPENAI_API_KEY=your_api_key_here
+
+Run backend:
+uvicorn main:app --reload
+
+3. Frontend Setup
+cd frontend
+
+npm install
+npm run dev
+
+Open:
+http://localhost:3000
+
