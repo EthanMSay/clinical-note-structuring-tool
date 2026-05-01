@@ -129,8 +129,11 @@ http://localhost:3000
 
 ## Deployment Link
 
+Vercel main frontend link:
+https://clinical-note-structuring-tool-o14orhq5x-emsay-7690s-projects.vercel.app/
+
+Render backend link:
 https://clinical-note-structuring-tool-fatw.onrender.com
-https://clinical-note-structuring-tool-bte9ze37m-emsay-7690s-projects.vercel.app/
 
 ---
 
